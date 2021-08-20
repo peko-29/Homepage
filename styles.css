@@ -12,7 +12,7 @@ header {
   color: #fff;
   display: flex;
   height: 80px;
-  width: 500px;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -34,12 +34,12 @@ header > h1 .name {
   width: 200px;
 }
 
+
 main {
-  width: 500px;
+  width: 550px;
   box-sizing: border-box;
-  padding: 40px 20px;
+  padding: 100px 40px;
   flex-wrap: nowrap;
-  margin-bottom: 50px;
 }
 
 footer {
@@ -53,20 +53,61 @@ main img {
   height: 400px;
 }
 
+
 .homepage img {
   margin-top: 30px;
 }
 
+.paragrah_1 {
+  margin-bottom: 30px;
+}
+
+.programming {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.paragrah_2 {
+  margin-bottom: 40px;
+}
+
+.programming .character_1 {
+  margin-bottom: 20px;
+}
+
 .programming img {
-  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.portfolio {
+  margin-top: 150px;
+}
+
+.paragrah_3 {
+  margin-bottom: 40px;
 }
 
 .portfolio img {
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+.hobbies {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.paragrah_4 {
+  margin-bottom: 40px;
 }
 
 .hobbies img {
-  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.inquiry {
+  margin-top: 150px;
 }
 
 .inquiry img {
@@ -108,6 +149,8 @@ main img {
 
 .inquiry_2 {
   text-align: center;
+  border:2px dotted #000000;
+  padding: 10px;
 }
 
 .inquiry_1 {
